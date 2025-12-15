@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Index</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tektur:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="image-display">
+        <img src="imgs/bulba.png" alt="Bulbasaur Picture" />
+      </section>
+      <section id="information">
+        <p><strong>Name:</strong> Bulbasaur</p>
+        <p><strong>Species:</strong> Grass</p>
+        <p><strong>Trait:</strong> Large bulb that blooms when it evolves.</p>
+      </section>
+      <section id="nav-btns">
+        <div class="arrow-btns">
+          <p><i class="arrow left"></i></p>
+          <p><i class="arrow right"></i></p>
+        </div>
+        <button id="search-btn" type="button">Search</button>
+      </section>
+      <section id="account">
+        <button class="account-btn" id="add-btn" type="button">Add</button>
+        <button class="account-btn" type="button">Edit</button>
+        <button class="account-btn" type="button">Delete</button>
+        <button class="account-btn" type="button">Account</button>
+      </section>
+      <dialog id="modal">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <label for="species">Species:</label>
+          <input type="text" id="species" name="species" />
+          <label for="trait">Trait:</label>
+          <input type="text" id="species" name="trait" />
+        </form>
+      </dialog>
+    </main>
+  </body>
+</html>
