@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animal Index</title>
+    <title>Critter Ritter</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,13 +15,13 @@
   </head>
   <body>
     <main>
-      <section id="image-display">
+      <section id="portrait">
         <img src="imgs/bulba.png" alt="Bulbasaur Picture" />
       </section>
       <section id="information">
         <p><strong>Name:</strong> Bulbasaur</p>
         <p><strong>Species:</strong> Grass</p>
-        <p><strong>Trait:</strong> Large bulb that blooms when it evolves.</p>
+        <p><strong>Traits:</strong> Large bulb that blooms when it evolves.</p>
       </section>
       <section id="nav-btns">
         <div class="arrow-btns">
@@ -43,7 +43,11 @@
           <label for="species">Species:</label>
           <input type="text" id="species" name="species" />
           <label for="trait">Trait:</label>
-          <input type="text" id="species" name="trait" />
+          <input type="text" id="trait" name="trait" />
+          <label for="file">Picture:</label>
+          <input type="file" id="file" name="image" accept="image/*" />
+          <button type="button" id="modal-add">Add</button>
+          <button type="button" id="modal-cancel">Cancel</button>
         </form>
       </dialog>
     </main>

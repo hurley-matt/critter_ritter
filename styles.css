@@ -55,7 +55,7 @@ p {
   -webkit-transform: rotate(135deg);
 }
 
-#image-display {
+#portrait {
   border: 10px solid #fff;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -64,9 +64,6 @@ p {
 #information {
   background-color: #c0c0c0;
   border-radius: 10px;
-}
-
-#information {
   padding: 1rem 3rem 3rem 0.3rem;
   overflow: scroll;
 }
@@ -92,7 +89,7 @@ p {
   justify-content: center;
   background-color: #fcab8b;
   border: 1px solid #c0c0c0;
-  padding: 2rem;
+  padding: 1rem 3rem;
   border-radius: 50px;
 }
 
@@ -105,3 +102,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* #modal {
+  /* width: 25%;
+  display: flex;
+  flex-direction: column;
+} */
