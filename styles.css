@@ -27,13 +27,6 @@ p {
   max-width: 16ch;
 }
 
-#nav-btns {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2rem;
-}
-
 .arrow-btns {
   display: flex;
 }
@@ -103,8 +96,48 @@ img {
   height: auto;
 }
 
-/* #modal {
-  /* width: 25%;
-  display: flex;
-  flex-direction: column;
-} */
+@media (width >= 40em) {
+  :root {
+    font-size: 1.5rem;
+  }
+  main {
+    padding: 2rem;
+  }
+
+  #portrait {
+    grid-area: "portrait";
+  }
+  #information {
+    grid-area: "info";
+  }
+  .arrow-btns {
+    grid-area: "nav";
+  }
+  .top-half {
+    display: grid;
+    grid-template-areas:
+      "portrait info"
+      "nav search";
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 5px;
+  }
+  #search-btn {
+    font-size: 1.2rem;
+    grid-area: "search";
+  }
+  .arrow {
+    border-width: 0 12px 12px 0;
+    padding: 24px;
+  }
+  #account {
+    justify-content: center;
+  }
+  .account-btn {
+    font-size: 1.2rem;
+    border: black 10px solid;
+  }
+}
+
+/* #modal { /* width: 25%; display: flex; flex-direction: column; } */

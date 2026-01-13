@@ -7,11 +7,13 @@ const animalSpecies = document.getElementById("species");
 const animalTrait = document.getElementById("trait");
 const animalPic = document.getElementById("file");
 const portrait = document.getElementById("portrait");
-console.log(portrait.innerHTML);
+const editBtn = document.getElementById("edit-btn");
 
 addBtn.addEventListener("click", () => {
   modal.showModal();
 });
+
+editBtn.addEventListener("click");
 
 modalCancelBtn.addEventListener("click", () => {
   animalName.value = "";
