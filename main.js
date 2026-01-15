@@ -13,7 +13,7 @@ addBtn.addEventListener("click", () => {
   modal.showModal();
 });
 
-editBtn.addEventListener("click");
+// editBtn.addEventListener("click");
 
 modalCancelBtn.addEventListener("click", () => {
   animalName.value = "";
@@ -23,18 +23,18 @@ modalCancelBtn.addEventListener("click", () => {
   modal.close();
 });
 
-modalAddBtn.addEventListener("click", () => {
-  // const newAnimal = new Animal(
-  //   animalName.value,
-  //   animalSpecies.value,
-  //   animalTrait.value,
-  //   animalPic.value
-  // );
-  // animalName.value = "";
-  // animalSpecies.value = "";
-  // animalTrait.value = "";
-  console.log(animalPic.value);
-});
+// modalAddBtn.addEventListener("click", () => {
+// const newAnimal = new Animal(
+//   animalName.value,
+//   animalSpecies.value,
+//   animalTrait.value,
+//   animalPic.value
+// );
+// animalName.value = "";
+// animalSpecies.value = "";
+// animalTrait.value = "";
+//   console.log(animalPic.value);
+// });
 
 class Animal {
   constructor(name, species, trait, image) {

@@ -15,7 +15,7 @@
   </head>
   <body>
     <main>
-      <div class="top-half">
+      <div class="top-container">
         <section id="portrait">
           <img src="imgs/bulba.png" alt="Bulbasaur Picture" />
         </section>
@@ -26,6 +26,8 @@
             <strong>Traits:</strong> Large bulb that blooms when it evolves.
           </p>
         </section>
+      </div>
+      <div class="mid-container">
         <div class="arrow-btns">
           <p><i class="arrow left"></i></p>
           <p><i class="arrow right"></i></p>
@@ -48,8 +50,10 @@
           <input type="text" id="trait" name="trait" />
           <label for="file">Picture:</label>
           <input type="file" id="file" name="image" accept="image/*" />
-          <button type="button" id="modal-add">Add</button>
-          <button type="button" id="modal-cancel">Cancel</button>
+          <div class="btn-container">
+            <button type="button" id="modal-add">Add</button>
+            <button type="button" id="modal-cancel">Cancel</button>
+          </div>
         </form>
       </dialog>
     </main>
