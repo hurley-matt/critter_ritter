@@ -8,9 +8,19 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Welcome to Critter Ritter!</h1>
-    <h2>Record all the critters you see!</h2>
-    <label for="signup-btn">Sign up today!</label>
-    <button id="signup-btn" type="button">Sign up</button>
+    <main>
+      <h1>Welcome to Critter Ritter!</h1>
+      <h2>Record all the critters you see!</h2>
+      <label for="signup-btn">Sign up today!</label>
+      <button id="signup-btn" type="button">Sign up</button>
+    </main>
+    <nav>
+      <ul>
+        <li>Sign up</li>
+        <li>Log in</li>
+        <li><a href="{% url 'about' %}">About</a></li>
+        <li>Terms</li>
+      </ul>
+    </nav>
   </body>
 </html>
