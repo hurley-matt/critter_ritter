@@ -1,4 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  line-height: 1.5;
+  background-color: #000080;
+  color: rgb(218, 218, 218);
+}
+
+p {
+  max-width: 16ch;
+}
+
 ul {
+  list-style-type: none;
+}
+
+#signup-btn {
+  background-color: #fcab8b;
+}
+
+#home-main {
+  padding: 3rem;
+  text-align: center;
+}
+
+#home-nav {
   width: 100%;
+  color: black;
+  padding: 3rem;
   display: flex;
+  justify-content: space-around;
+  background-color: #87ceeb;
+  position: fixed;
+  bottom: 0;
 }
